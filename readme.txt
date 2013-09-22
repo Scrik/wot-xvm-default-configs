@@ -1,4 +1,5 @@
 ﻿坦克世界 XVM模組 預設使用者設定 測試
+上午 03:00 2013/9/23
 上午 02:02 2013/9/6
 下午 02:27 2013/8/2
 
@@ -8,6 +9,8 @@ hotkeys.xc //熱鍵
 
 battleLoading.xc //顯示clanIcon
 　battleLoading>clanIcon>show:false//把clanIcon顯示關掉
+　showChances//顯示預測勝率
+　showChancesExp//顯示預測經驗值
 
 finalStatistic.xc //結算畫面
 　startPage=1 //預設第一頁
@@ -26,7 +29,7 @@ login.xc//登入畫面
 　pingServers>enabled //登入畫面顯示ping值
 
 minimapCircles.xc //小地圖顯示視野距離Circle
-　major //設定Circle
+　major //設定Circle //多一圈就新增一行
 　special //不明
 
 minimapLines.xc //小地圖顯示輔助線
@@ -51,3 +54,27 @@ playersPanel.xc //隊伍面板設定
 　　　revealed//場上
 　　　dead//死亡
 　　　　//＜font face='$FieldFont' size='20' color='#DEDEDE'＞標示字樣＜/font＞
+
+//
+@xvm.xc
+alpha.xc
+battle.xc
+captureBar.xc
+colors.xc
+elements.xc
+finalStatistic.xc
+iconset.xc
+login.xc
+markers.xc
+markersAliveExtended.xc
+markersAliveNormal.xc
+markersDeadExtended.xc
+markersDeadNormal.xc
+minimap.xc
+minimapLabels.xc
+rating.xc
+squad.xc
+statisticForm.xc
+texts.xc
+turretMarkers.xc
+vehicleNames.xc
