@@ -27,7 +27,7 @@
 
   // Version of the editor.
   // Версия редактора.
-  "editorVersion": "0.60",
+  "editorVersion": "0.64",
 
   // Language used in mod
   // "auto" - automatically detect language from game client,
@@ -39,10 +39,10 @@
 
   // Game Region
   // "auto" - automatically detect game region from game client,
-  // or specify one of: "RU", "EN", "NA", "CN", "SEA", "VN", "KR"
+  // or specify one of: "RU", "EU", "US", "SEA", "VTC", "KR"
   // Регион (игровой кластер)
   // "auto" - автоматически определять регион из клиента игры,
-  // или укажите один из: "RU", "EU", "NA", "CN", "SEA", "VN", "KR"
+  // или укажите один из: "RU", "EU", "US", "SEA", "VTC", "KR"
   "region": "auto",
 
   // Common config options. All settings information in the mod not being used.
@@ -62,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "13.09.2013",
+    "date": "21.09.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -123,7 +123,7 @@
 
   // Parameters of the After Battle Screen.
   // Параметры окна послебоевой статистики.
-  "finalStatistic": ${"finalStatistic.xc":"finalStatistic"},
+  "battleResults": ${"battleResults.xc":"battleResults"},
 
   // {{turret}} marker display strings.
   // Отображаемые строки {{turret}} маркера.

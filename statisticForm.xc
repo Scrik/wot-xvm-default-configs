@@ -16,7 +16,7 @@
     // Display options for Team/Clan logos (see battleLoading.xc).
     // Параметры отображения иконки игрока/клана (см. battleLoading.xc).
     "clanIcon": {
-      "show": false,
+      "show": true,
       "x": 0,
       "y": 6,
       "xr": 0,

@@ -6,15 +6,15 @@
   "hangar": {
     // true - Disable display of tutorial icon
     // true - скрыть иконку обучения
-    "hideTutorial": true,
+    "hideTutorial": false,
     // true - Show XWN instead of XEFF in company windows
     // true - показывать XWN вместо XEFF в окнах рот
     "xwnInCompany": true,
     // true - Enable widgets
     // true - включить виджеты
-    "widgetsEnabled": true,
-    // Ping servers; works only with xvm-stat.exe
-    // Пинг серверов; работает только с xvm-stat.exe
+    "widgetsEnabled": false,
+    // Ping servers
+    // Пинг серверов
     "pingServers": {
       // true - Enable display of ping to the servers
       // true - показывать пинг до серверов
@@ -86,6 +86,9 @@
   // UserInfo window.
   // Окно достижений.
   "userInfo": {
+    // Initial page (1, 2, 3, 4).
+    // Номер начальной страницы (1, 2, 3, 4).
+    "startPage": 4,
     // true - Show filters on tanks.
     // true - показывать фильтры отображения танков.
     "showFilters": true,
