@@ -1,4 +1,5 @@
 ﻿坦克世界 XVM模組 預設使用者設定 測試
+下午 09:57 2013/9/28 更名 finalStatistic.xc -> battleResults.xc
 上午 03:00 2013/9/23
 上午 02:02 2013/9/6
 下午 02:27 2013/8/2
@@ -12,7 +13,7 @@ battleLoading.xc //顯示clanIcon
 　showChances//顯示預測勝率
 　showChancesExp//顯示預測經驗值
 
-finalStatistic.xc //結算畫面
+battleResults.xc  //結算畫面
 　startPage=1 //預設第一頁
 　sortColumn=6 //預設依經驗值排序
 
@@ -27,6 +28,8 @@ hitLog.xc//傷害紀錄
 
 login.xc//登入畫面
 　pingServers>enabled //登入畫面顯示ping值
+　"skipIntro":true//跳過啟動動畫
+　"autologin":true//開啟自動登入
 
 minimapCircles.xc //小地圖顯示視野距離Circle
 　major //設定Circle //多一圈就新增一行
@@ -59,6 +62,7 @@ playersPanel.xc //隊伍面板設定
 @xvm.xc
 alpha.xc
 battle.xc
+
 captureBar.xc
 colors.xc
 elements.xc

@@ -22,7 +22,7 @@
     "clanIcon": {
       // false - Disable Team/Clan logos in Battle Loading Screen.
       // false - не отображать иконки игрока/клана в окне загрузки боя.
-      "show": true,
+      "show": false,
       // Position on the X axis, relative to the vehicle icon.
       // Положение по оси X оносительно иконки танка.
       "x": 0,

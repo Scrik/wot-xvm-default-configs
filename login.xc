@@ -9,7 +9,7 @@
     "skipIntro": true,
     // Auto enter to the game
     // Автоматический вход в игру
-    "autologin": false,
+    "autologin": true,
     // Ping servers
     // Пинг серверов
     "pingServers": {

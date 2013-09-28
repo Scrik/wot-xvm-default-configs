@@ -16,7 +16,7 @@
     // Display options for Team/Clan logos (see battleLoading.xc).
     // Параметры отображения иконки игрока/клана (см. battleLoading.xc).
     "clanIcon": {
-      "show": true,
+      "show": false,
       "x": 0,
       "y": 6,
       "xr": 0,
@@ -32,7 +32,7 @@
     "enemySpottedMarker": {
       // false - Disable.
       // false - отключить.
-      "enabled": false,
+      "enabled": true,
       // Offset relative to level icon (by X, Y).
       // Смещение относительно иконки уровня танка (по X, Y).
       "Xoffset": 15,
@@ -41,20 +41,20 @@
       "format": {
         // Never seen this enemy.
         // Этот враг никогда не светился.
-        "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
+        "neverSeen": "<font face='$FieldFont' size='20' color='#DEDEDE'>-</font>",
         // This enemy was seen atleast once.
         // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
-        "lost": "",
+        "lost": "<font face='$FieldFont' size='20' color='#DEDEDE'>L</font>",
         // Enemy currently revealed at minimap.
         // Виден на миникарте прямо сейчас.
-        "revealed": "",
+        "revealed": "<font face='$FieldFont' size='20' color='#DEDEDE'>A</font>",
         // Dead enemy.
         // Уничтоженный враг.
-        "dead": "",
+        "dead": "<font face='$FieldFont' size='20' color='#DEDEDE'>d</font>",
         // Artillery specific values.
         // Специфичные значения для артиллерии.
         "artillery": {
-          "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
+          "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>0</font>",
           "lost": "",
           "revealed": "",
           "dead": ""

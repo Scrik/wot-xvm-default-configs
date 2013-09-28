@@ -6,7 +6,7 @@
   "battleResults": {
     // Initial page (1, 2, 3).
     // Номер начальной страницы (1, 2, 3).
-    "startPage": 1,
+    "startPage": 2,
     // true - Display net income of credits in first page
     // true - Отображать чистый доход на первой странице
     "showNetIncome": true,
