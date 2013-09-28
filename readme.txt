@@ -1,5 +1,5 @@
 ﻿坦克世界 XVM模組 預設使用者設定 測試
-下午 09:57 2013/9/28 更名 finalStatistic.xc -> battleResults.xc
+下午 09:57 2013/9/28 5.0.0test3 更名 finalStatistic.xc -> battleResults.xc
 上午 03:00 2013/9/23
 上午 02:02 2013/9/6
 下午 02:27 2013/8/2
