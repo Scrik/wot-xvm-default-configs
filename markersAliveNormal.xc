@@ -159,7 +159,7 @@
     // Vehicle tier.
     // Уровень танка.
     "levelIcon": {
-      "visible": false,  // false - disable        / не отображать.
+      "visible": true,  // false - disable        / не отображать.
       "x": 0,            // Position on the X axis / Положение по оси X.
       "y": -21,          // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
@@ -196,7 +196,7 @@
           "color": "0x000000",
           "angle": 45,
           "distance": 0,
-          "size": 6,
+          "size": 0,
           "strength": 200
         },
         "format": "{{vehicle}}{{turret}}"
@@ -310,7 +310,7 @@
     // Vehicle tier.
     // Уровень танка.
     "levelIcon": {
-      "visible": false,
+      "visible": true,
       "x": 0,
       "y": -21,
       "alpha": 100

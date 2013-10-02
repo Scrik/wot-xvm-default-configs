@@ -41,20 +41,20 @@
       "format": {
         // Never seen this enemy.
         // Этот враг никогда не светился.
-        "neverSeen": "<font face='$FieldFont' size='20' color='#DEDEDE'>-</font>",
+        "neverSeen": "<font face='$FieldFont' size='18' color='#DEDEDE'>-</font>",
         // This enemy was seen atleast once.
         // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
-        "lost": "<font face='$FieldFont' size='20' color='#DEDEDE'>L</font>",
+        "lost": "<font face='$FieldFont' size='18' color='#DEDEDE'>L</font>",
         // Enemy currently revealed at minimap.
         // Виден на миникарте прямо сейчас.
-        "revealed": "<font face='$FieldFont' size='20' color='#DEDEDE'>A</font>",
+        "revealed": "<font face='$FieldFont' size='18' color='#DEDEDE'>A</font>",
         // Dead enemy.
         // Уничтоженный враг.
-        "dead": "<font face='$FieldFont' size='20' color='#DEDEDE'>d</font>",
+        "dead": "<font face='$FieldFont' size='18' color='#DEDEDE'>d</font>",
         // Artillery specific values.
         // Специфичные значения для артиллерии.
         "artillery": {
-          "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>0</font>",
+          "neverSeen": "<font face='$FieldFont' size='18' color='#DEDEDE'>SPG</font>",
           "lost": "",
           "revealed": "",
           "dead": ""

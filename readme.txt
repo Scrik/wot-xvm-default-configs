@@ -46,8 +46,11 @@ minimapLines.xc //小地圖顯示輔助線
 
 vehicleNames.xc //自訂車輛名稱
 
-markersAliveExtended.xc //按alt時的車輛(存活)資訊顯示
-markersAliveNormal.xc //沒按alt時的車輛(存活)資訊顯示
+markersAliveExtended.xc //按alt時的車輛(存活)資訊顯示，敵我分開設定
+markersAliveNormal.xc //沒按alt時的車輛(存活)資訊顯示，敵我分開設定
+　levelIcon.visible: true//顯示車輛階級
+　contourIcon.visible: false//顯示車輛輪廓(組隊面板上坦克的圖)
+　vehicleIcon.visible: true//顯示車種圖示 
 
 playersPanel.xc //隊伍面板設定
 　enemySpottedMarker//敵人標示

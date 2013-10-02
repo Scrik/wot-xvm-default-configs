@@ -16,7 +16,7 @@
       "$ref": { "file": "hangar.xc", "path": "hangar.pingServers" },
       // true - Show ping to the servers
       // true - показывать пинг до серверов
-      "enabled": false,
+      "enabled": true,
       // Axis field coordinates
       // Положение поля по осям
       "x": 5,

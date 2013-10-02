@@ -18,14 +18,14 @@
     "pingServers": {
       // true - Enable display of ping to the servers
       // true - показывать пинг до серверов
-      "enabled": false,
+      "enabled": true,
       // Update interval, in ms
       // Интервал обновления, в мс
       "updateInterval": 10000,
       // Axis field coordinates
       // Положение поля по осям
       "x": 170,
-      "y": 35,
+      "y": 30,
       // Transparecy
       // Прозрачность от 0 до 100
       "alpha": 80,
