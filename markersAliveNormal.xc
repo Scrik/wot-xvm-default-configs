@@ -196,7 +196,7 @@
           "color": "0x000000",
           "angle": 45,
           "distance": 0,
-          "size": 0,
+          "size": 6,
           "strength": 200
         },
         "format": "{{vehicle}}{{turret}}"

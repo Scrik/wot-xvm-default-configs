@@ -24,11 +24,11 @@
       "updateInterval": 10000,
       // Axis field coordinates
       // Положение поля по осям
-      "x": 170,
-      "y": 30,
+      "x": 250,
+      "y": 10,
       // Transparecy
       // Прозрачность от 0 до 100
-      "alpha": 80,
+      "alpha": 99,
       // Server to responce time text delimiter
       // Разделитель сервера от времени отклика
       "delimiter": ": ",
@@ -44,7 +44,7 @@
         // Font name
         // Название шрифта
         "name": "$FieldFont",
-        "size": 12, // Размер
+        "size": 20, // Размер
         "bold": false,  // Жирный
         "italic": false, // Курсив
         // Different colors depending on server responce time

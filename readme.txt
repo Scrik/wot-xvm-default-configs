@@ -18,8 +18,11 @@ battleResults.xc  //結算畫面
 　sortColumn=6 //預設依經驗值排序
 
 hangar.xc //車庫介面
-　pingServers.enabled=true//車庫顯示ping值
 　hideTutorial //隱藏教學按鈕
+　pingServers.enabled=true//車庫顯示ping值
+　pingServers.x//位置x
+　pingServers.y//位置y
+　threshold//門檻 顏色顯示用 great=0~35亮橘 good=亮灰35~60 poor=60~100深灰 bad=紅100+
 
 hitLog.xc//傷害紀錄
 　hitLog.visible=true//開啟
