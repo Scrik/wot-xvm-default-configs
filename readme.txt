@@ -1,5 +1,5 @@
 ﻿坦克世界 XVM模組 預設使用者設定 測試
-下午 09:57 2013/9/28 5.0.0test3 更名 finalStatistic.xc -> battleResults.xc
+下午 09:57 2013/9/28 5.0.0test3  舊名finalStatistic.xc -> 新名battleResults.xc
 上午 03:00 2013/9/23
 上午 02:02 2013/9/6
 下午 02:27 2013/8/2
@@ -67,15 +67,18 @@ playersPanel.xc //隊伍面板設定
 rating.xc
 　rating.showPlayersStatistics=true//顯示玩家的勝率資訊
 
+squad.xc //組隊??
+
+captureBar.xc//佔領時的進度條
+
+statisticForm.xc//tab面板
 //
 @xvm.xc
 alpha.xc
 battle.xc
-
-captureBar.xc
 colors.xc
 elements.xc
-finalStatistic.xc
+
 iconset.xc
 login.xc
 markers.xc
@@ -85,9 +88,7 @@ markersDeadExtended.xc
 markersDeadNormal.xc
 minimap.xc
 minimapLabels.xc
-rating.xc
-squad.xc
-statisticForm.xc
+
 texts.xc
 turretMarkers.xc
 vehicleNames.xc

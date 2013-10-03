@@ -6,10 +6,10 @@
   "statisticForm": {
     // true - Enable display of "chance to win" (only with xvm-stat).
     // true - включить отображение шансов на победу (только с xvm-stat).
-    "showChances": false,
+    "showChances": true,
     // true - Show experimental "chance to win" formula
     // true - показывать экспериментальную формулу расчета шансов.
-    "showChancesExp": false,
+    "showChancesExp": true,
     // true - Disable Platoon icons.
     // true - убрать отображение иконки взвода.
     "removeSquadIcon": false,
