@@ -10,13 +10,13 @@
     "clockFormat": "H:i:s",
     // true - Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1663-/
     // true - включить отображение шансов на победу (только с xvm-stat). Прочитать подробней: http://www.koreanrandom.com/forum/topic/1663-/
-    "showChances": false,
+    "showChances": true,
     // Show experimental "chance to win" formula.
     // Показывать экспериментальную формулу расчета шансов.
-    "showChancesExp": false,
+    "showChancesExp": true,
     // true - Disable Platoon icons. This blank space can house, for example, clan logos.
     // true - убрать отображение иконки взвода. На пустое поле можно вывести, например, иконку клана.
-    "removeSquadIcon": false,
+    "removeSquadIcon": true,
     // Display options for Team/Clan logos.
     // Параметры отображения иконки игрока/клана.
     "clanIcon": {
