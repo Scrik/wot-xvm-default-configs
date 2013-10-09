@@ -4,19 +4,19 @@
  */
 {
   "statisticForm": {
-    // true - Enable display of "chance to win" (only with xvm-stat).
-    // true - включить отображение шансов на победу (только с xvm-stat).
-    "showChances": true,
+    // true - Enable display of "chance to win"
+    // true - включить отображение шансов на победу
+    "showChances": false,
     // true - Show experimental "chance to win" formula
     // true - показывать экспериментальную формулу расчета шансов.
-    "showChancesExp": true,
+    "showChancesExp": false,
     // true - Disable Platoon icons.
     // true - убрать отображение иконки взвода.
     "removeSquadIcon": false,
     // Display options for Team/Clan logos (see battleLoading.xc).
     // Параметры отображения иконки игрока/клана (см. battleLoading.xc).
     "clanIcon": {
-      "show": false,
+      "show": true,
       "x": 0,
       "y": 6,
       "xr": 0,

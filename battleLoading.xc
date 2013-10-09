@@ -8,21 +8,21 @@
     // Формат часов на экране загрузки боя.
     // http://php.net/date
     "clockFormat": "H:i:s",
-    // true - Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1663-/
-    // true - включить отображение шансов на победу (только с xvm-stat). Прочитать подробней: http://www.koreanrandom.com/forum/topic/1663-/
-    "showChances": true,
+    // true - Enable display of "chance to win". Read more: http://www.koreanrandom.com/forum/topic/1663-/
+    // true - включить отображение шансов на победу. Прочитать подробней: http://www.koreanrandom.com/forum/topic/1663-/
+    "showChances": false,
     // Show experimental "chance to win" formula.
     // Показывать экспериментальную формулу расчета шансов.
-    "showChancesExp": true,
+    "showChancesExp": false,
     // true - Disable Platoon icons. This blank space can house, for example, clan logos.
     // true - убрать отображение иконки взвода. На пустое поле можно вывести, например, иконку клана.
-    "removeSquadIcon": true,
+    "removeSquadIcon": false,
     // Display options for Team/Clan logos.
     // Параметры отображения иконки игрока/клана.
     "clanIcon": {
       // false - Disable Team/Clan logos in Battle Loading Screen.
       // false - не отображать иконки игрока/клана в окне загрузки боя.
-      "show": false,
+      "show": true,
       // Position on the X axis, relative to the vehicle icon.
       // Положение по оси X оносительно иконки танка.
       "x": 0,

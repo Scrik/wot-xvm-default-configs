@@ -1,4 +1,5 @@
 ﻿坦克世界 XVM模組 預設使用者設定 測試
+要使用自訂設定 要將 \res_mods\xvm\底下的xvm.xc.sample 改成 xvm.xc
 下午 09:57 2013/9/28 5.0.0test3  舊名finalStatistic.xc -> 新名battleResults.xc
 上午 03:00 2013/9/23
 上午 02:02 2013/9/6
