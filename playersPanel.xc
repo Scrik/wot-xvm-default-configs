@@ -32,7 +32,7 @@
     "enemySpottedMarker": {
       // false - Disable.
       // false - отключить.
-      "enabled": true,
+      "enabled": false,
       // Offset relative to level icon (by X, Y).
       // Смещение относительно иконки уровня танка (по X, Y).
       "Xoffset": 15,
@@ -41,20 +41,20 @@
       "format": {
         // Never seen this enemy.
         // Этот враг никогда не светился.
-        "neverSeen": "<font face='$FieldFont' size='18' color='#DEDEDE'>-</font>",
+        "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
         // This enemy was seen atleast once.
         // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
-        "lost": "<font face='$FieldFont' size='18' color='#DEDEDE'>L</font>",
+        "lost": "",
         // Enemy currently revealed at minimap.
         // Виден на миникарте прямо сейчас.
-        "revealed": "<font face='$FieldFont' size='18' color='#DEDEDE'>A</font>",
+        "revealed": "",
         // Dead enemy.
         // Уничтоженный враг.
-        "dead": "<font face='$FieldFont' size='18' color='#DEDEDE'>d</font>",
+        "dead": "",
         // Artillery specific values.
         // Специфичные значения для артиллерии.
         "artillery": {
-          "neverSeen": "<font face='$FieldFont' size='18' color='#DEDEDE'>SPG</font>",
+          "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
           "lost": "",
           "revealed": "",
           "dead": ""

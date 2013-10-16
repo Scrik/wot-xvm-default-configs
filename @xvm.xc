@@ -62,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "21.09.2013",
+    "date": "09.10.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -83,7 +83,7 @@
 
   // Parameters for userinfo window.
   // Параметры окна достижений.
-  "userInfo": ${"hangar.xc":"userInfo"},
+  "userInfo": ${"userInfo.xc":"userInfo"},
 
   // General parameters for the battle interface.
   // Общие параметры боевого интерфейса.

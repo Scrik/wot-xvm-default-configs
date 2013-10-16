@@ -159,9 +159,9 @@
     // Vehicle tier.
     // Уровень танка.
     "levelIcon": {
-      "visible": true,  // false - disable        / не отображать.
-      "x": 20,            // Position on the X axis / Положение по оси X.
-      "y": -20,          // Position on the Y axis / Положение по оси Y.
+      "visible": false,  // false - disable        / не отображать.
+      "x": 0,            // Position on the X axis / Положение по оси X.
+      "y": -21,          // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
     },
     // Markers "Help!" and "Attack!".
@@ -186,7 +186,7 @@
         "color": null,
         "font": {
           "name": "$FieldFont",
-          "size": 16,
+          "size": 13,
           "align": "center",
           "bold": false,
           "italic": false
@@ -212,7 +212,7 @@
         "color": "0xFCFCFC",
         "font": {
           "name": "$FieldFont",
-          "size": 14,
+          "size": 11,
           "align": "center",
           "bold": true,
           "italic": false
@@ -310,9 +310,9 @@
     // Vehicle tier.
     // Уровень танка.
     "levelIcon": {
-      "visible": true,
-      "x": 20,
-      "y": -20,
+      "visible": false,
+      "x": 0,
+      "y": -21,
       "alpha": 100
     },
     // Markers "Help!" and "Attack!".
@@ -337,7 +337,7 @@
         "color": null,
         "font": {
           "name": "$FieldFont",
-          "size": 16,
+          "size": 13,
           "align": "center",
           "bold": false,
           "italic": false
@@ -363,7 +363,7 @@
         "color": "0xFCFCFC",
         "font": {
           "name": "$FieldFont",
-          "size": 14,
+          "size": 11,
           "align": "center",
           "bold": true,
           "italic": false
