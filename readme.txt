@@ -1,5 +1,6 @@
 ﻿坦克世界 XVM模組 預設使用者設定 測試
 要使用自訂設定 要將 \res_mods\xvm\底下的xvm.xc.sample 改成 xvm.xc
+下午 08:48 2013/10/16 5.0.0test5 hangar.xc 部份內容移到新增檔案userInfo.xc
 上午 03:20 2013/10/10 5.0.0test4
 下午 09:57 2013/9/28 5.0.0test3  舊名finalStatistic.xc -> 新名battleResults.xc
 上午 03:00 2013/9/23
@@ -25,6 +26,8 @@ hangar.xc //車庫介面
 　pingServers.x//位置x
 　pingServers.y//位置y
 　threshold//門檻 顏色顯示用 great=0~35亮橘 good=亮灰35~60 poor=60~100深灰 bad=紅100+
+
+userInfo.xc
 
 hitLog.xc//傷害紀錄
 　hitLog.visible=true//開啟
