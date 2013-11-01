@@ -6,7 +6,7 @@
   "hangar": {
     // true - Disable display of tutorial icon
     // true - скрыть иконку обучения
-    "hideTutorial": true,
+    "hideTutorial": false,
     // true - Show XWN instead of XEFF in company windows
     // true - показывать XWN вместо XEFF в окнах рот
     "xwnInCompany": true,
@@ -18,14 +18,14 @@
     "pingServers": {
       // true - Enable display of ping to the servers
       // true - показывать пинг до серверов
-      "enabled": true,
+      "enabled": false,
       // Update interval, in ms
       // Интервал обновления, в мс
       "updateInterval": 10000,
       // Axis field coordinates
       // Положение поля по осям
-      "x": 250,
-      "y": 10,
+      "x": 170,
+      "y": 35,
       // Transparecy
       // Прозрачность от 0 до 100
       "alpha": 80,
@@ -44,7 +44,7 @@
         // Font name
         // Название шрифта
         "name": "$FieldFont",
-        "size": 20, // Размер
+        "size": 12, // Размер
         "bold": false,  // Жирный
         "italic": false, // Курсив
         // Different colors depending on server responce time

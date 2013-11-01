@@ -9,14 +9,14 @@
     "skipIntro": true,
     // Auto enter to the game
     // Автоматический вход в игру
-    "autologin": true,
+    "autologin": false,
     // Ping servers
     // Пинг серверов
     "pingServers": {
       "$ref": { "file": "hangar.xc", "path": "hangar.pingServers" },
       // true - Show ping to the servers
       // true - показывать пинг до серверов
-      "enabled": true,
+      "enabled": false,
       // Axis field coordinates
       // Положение поля по осям
       "x": 5,
