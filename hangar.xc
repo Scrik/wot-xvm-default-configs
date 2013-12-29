@@ -6,7 +6,7 @@
   "hangar": {
     // true - Disable display of tutorial icon
     // true - скрыть иконку обучения
-    "hideTutorial": false,
+    "hideTutorial": true,
     // true - Show XWN instead of XEFF in company windows
     // true - показывать XWN вместо XEFF в окнах рот
     "xwnInCompany": true,
