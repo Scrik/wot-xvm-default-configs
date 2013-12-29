@@ -6,13 +6,13 @@
   "statisticForm": {
     // true - Enable display of "chance to win"
     // true - включить отображение шансов на победу
-    "showChances": false,
+    "showChances": true,
     // true - Show experimental "chance to win" formula
     // true - показывать экспериментальную формулу расчета шансов.
-    "showChancesExp": false,
+    "showChancesExp": true,
     // true - Disable Platoon icons.
     // true - убрать отображение иконки взвода.
-    "removeSquadIcon": false,
+    "removeSquadIcon": true,
     // Display options for Team/Clan logos (see battleLoading.xc).
     // Параметры отображения иконки игрока/клана (см. battleLoading.xc).
     "clanIcon": {
