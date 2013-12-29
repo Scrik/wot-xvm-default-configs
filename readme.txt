@@ -71,7 +71,7 @@ playersPanel.xc //隊伍面板設定
 　　　　//＜font face='$FieldFont' size='20' color='#DEDEDE'＞標示字樣＜/font＞
 
 rating.xc
-　rating.showPlayersStatistics=true//顯示玩家的勝率資訊
+　rating.showPlayersStatistics=true//開關顯示玩家的勝率 戰鬥時按ALT會顯示
 
 squad.xc //組隊??
 
