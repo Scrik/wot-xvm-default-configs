@@ -62,7 +62,7 @@ markersAliveNormal.xc //沒按alt時的車輛(存活)資訊顯示，敵我分開
 　vehicleIcon.visible: true//顯示車種圖示 
 
 playersPanel.xc //隊伍面板設定
-　enemySpottedMarker//敵人標示
+　enemySpottedMarker//敵人是否在場上的標示
 　　format //面板格式 
 　　　neverSeen//從未見過
 　　　lost//消失
