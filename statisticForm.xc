@@ -12,7 +12,7 @@
     "showChancesExp": true,
     // true - Disable Platoon icons.
     // true - убрать отображение иконки взвода.
-    "removeSquadIcon": true,
+    "removeSquadIcon": false,
     // Display options for Team/Clan logos (see battleLoading.xc).
     // Параметры отображения иконки игрока/клана (см. battleLoading.xc).
     "clanIcon": {
