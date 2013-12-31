@@ -14,6 +14,7 @@
         // "enabled": false - выключен; "distance" - дистанция; "thickness" - толщина; "alpha" - прозрачность; "color" - цвет.
         "major": [
             // 445 meters - maximum reveal distance. / 445 метров - максимальная дистанция засвета.
+            { "enabled": true,  "distance": 370, "thickness": 0.75, "alpha": 40, "color": "0x00FF00" },
             { "enabled": true,  "distance": 445, "thickness": 0.75, "alpha": 40, "color": "0xFF0000" },
             { "enabled": true,  "distance": 400, "thickness": 0.75, "alpha": 80, "color": "0xFFCC66" },
             { "enabled": true,  "distance": 675, "thickness": 0.75, "alpha": 40, "color": "0xFF0000" },
