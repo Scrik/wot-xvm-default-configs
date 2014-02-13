@@ -6,7 +6,7 @@
   "rating": {
     // true - Toggle player statistics on/off. Global setting - without the statistics module, this is always disabled.
     // true - включить отображение статистики. Глобальный переключатель - без него модуль статистики будет везде отключен.
-    "showPlayersStatistics": true,
+    "showPlayersStatistics": false,
     // true - Enable statistics in the user info window.
     // true - включить отображение статистики в достижениях пользователя.
     "enableUserInfoStatistics": true,
@@ -18,6 +18,6 @@
     "loadEnemyStatsInFogOfWar": true,
     // true - Enable saving statistics to "xvm-stat.log" file.
     // true - включить сохранение статистики в файл "xvm-stat.log".
-    "enableStatisticsLog": true
+    "enableStatisticsLog": false
   }
 }
