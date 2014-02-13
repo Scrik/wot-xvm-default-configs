@@ -38,7 +38,7 @@
     // Rising speed of displayed damage (float up speed).
     // Время отображения отлетающего урона.
     "speed": 2,
-    // Maximimum distance of target for which damage rises.
+    // Maximum distance of target for which damage rises.
     // Расстояние, на которое отлетает урон.
     "maxRange": 40,
     // Text for normal damage (see description of macros in the readme-en.txt).
@@ -46,7 +46,7 @@
     "damageMessage": "{{dmg}}",
     // Text for ammo rack explosion (see description of macros in the readme-en.txt).
     // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt).
-    "blowupMessage": "{{l10n:blownUp}}"
+    "blowupMessage": "{{l10n:blownUp}}\n{{dmg}}"
   },
   // Настройки для союзников.
   "ally": {
@@ -72,10 +72,10 @@
       // Максимальный масштаб (по умолчанию 100).
       "maxScale": 100,
       // Offset along the X axis (?)
-      // Cмещение по оси X (?)
+      // Смещение по оси X (?)
       "scaleX": 0,
       // Offset along the Y axis (?)
-      // Cмещение по оси Y (?)
+      // Смещение по оси Y (?)
       "scaleY": 16,
       // Параметры тени.
       "shadow": {

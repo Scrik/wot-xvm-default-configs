@@ -27,7 +27,7 @@
 
   // Version of the editor.
   // Версия редактора.
-  "editorVersion": "0.60",
+  "editorVersion": "0.64",
 
   // Language used in mod
   // "auto" - automatically detect language from game client,
@@ -39,10 +39,10 @@
 
   // Game Region
   // "auto" - automatically detect game region from game client,
-  // or specify one of: "RU", "EN", "NA", "CN", "SEA", "VN", "KR"
+  // or specify one of: "RU", "EU", "NA", "SG", "VTC", "KR"
   // Регион (игровой кластер)
   // "auto" - автоматически определять регион из клиента игры,
-  // или укажите один из: "RU", "EU", "NA", "CN", "SEA", "VN", "KR"
+  // или укажите один из: "RU", "EU", "NA", "SG", "VTC", "KR"
   "region": "auto",
 
   // Common config options. All settings information in the mod not being used.
@@ -62,11 +62,11 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "13.09.2013",
+    "date": "19.12.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.8.8",
+    "gameVersion": "0.8.10",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
@@ -83,7 +83,7 @@
 
   // Parameters for userinfo window.
   // Параметры окна достижений.
-  "userInfo": ${"hangar.xc":"userInfo"},
+  "userInfo": ${"userInfo.xc":"userInfo"},
 
   // General parameters for the battle interface.
   // Общие параметры боевого интерфейса.
@@ -97,8 +97,8 @@
   // Внутриигровая панель критов от навыка "эксперт".
   "expertPanel": ${"battle.xc":"expertPanel"},
 
-  // Options for player statistics (only with xvm-stat).
-  // Блок управлением статистикой (только с xvm-stat).
+  // Options for player statistics.
+  // Блок управлением статистикой.
   "rating": ${"rating.xc":"rating"},
 
   // Special XVM hotkeys.
@@ -123,7 +123,7 @@
 
   // Parameters of the After Battle Screen.
   // Параметры окна послебоевой статистики.
-  "finalStatistic": ${"finalStatistic.xc":"finalStatistic"},
+  "battleResults": ${"battleResults.xc":"battleResults"},
 
   // {{turret}} marker display strings.
   // Отображаемые строки {{turret}} маркера.

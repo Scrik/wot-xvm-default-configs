@@ -6,15 +6,24 @@
   "hangar": {
     // true - Disable display of tutorial icon
     // true - скрыть иконку обучения
-    "hideTutorial": true,
-    // true - Show XWN instead of XEFF in company windows
-    // true - показывать XWN вместо XEFF в окнах рот
+    "hideTutorial": false,
+    // true - Show XWN8 instead of XEFF in company windows
+    // true - показывать XWN8 вместо XEFF в окнах рот
     "xwnInCompany": true,
+    // true - Show mastery mark in tank carousel
+    // true - Показывать знак мастерства в карусели танков
+    "masteryMarkInTankCarousel": true,
+    // true - Show mastery mark in tech tree
+    // true - Показывать знак мастерства в дереве исследований
+    "masteryMarkInTechTree": true,
+    // true - Hide price button in tech tree
+    // true - Прятать кнопку с ценой в дереве исследований
+    "hidePricesInTechTree": false,
     // true - Enable widgets
     // true - включить виджеты
-    "widgetsEnabled": true,
-    // Ping servers; works only with xvm-stat.exe
-    // Пинг серверов; работает только с xvm-stat.exe
+    "widgetsEnabled": false,
+    // Ping servers
+    // Пинг серверов
     "pingServers": {
       // true - Enable display of ping to the servers
       // true - показывать пинг до серверов
@@ -26,10 +35,10 @@
       // Положение поля по осям
       "x": 170,
       "y": 35,
-      // Transparecy
+      // Transparency
       // Прозрачность от 0 до 100
       "alpha": 80,
-      // Server to responce time text delimiter
+      // Server to response time text delimiter
       // Разделитель сервера от времени отклика
       "delimiter": ": ",
       // Maximum number of column rows
@@ -47,7 +56,7 @@
         "size": 12, // Размер
         "bold": false,  // Жирный
         "italic": false, // Курсив
-        // Different colors depending on server responce time
+        // Different colors depending on server response time
         // Разные цвета в зависимости от времени отклика сервера
         "color": {
           "great": "0xFFCC66", // Отличный
@@ -56,19 +65,19 @@
           "bad": "0xD64D4D"    // Плохой
         }
       },
-      // Threshold values defining responce quality
-      // Пороговые значения, определеяющие качество отклика
+      // Threshold values defining response quality
+      // Пороговые значения, определяющие качество отклика
       "threshold": {
-        // Below this value responce is great
+        // Below this value response is great
         // До этого значения отклик отличный
         "great": 35,
-        // Below this value responce is good
+        // Below this value response is good
         // До этого значения отклик хороший
         "good": 60,
-        // Below this value responce is poor
+        // Below this value response is poor
         // До этого значения отклик так себе
         "poor": 100
-        // Values above define bad responce
+        // Values above define bad response
         // Значения более считаются плохим откликом
       },
       // Параметры тени
@@ -82,32 +91,5 @@
         "strength": 2
       }
     }
-  },
-  // UserInfo window.
-  // Окно достижений.
-  "userInfo": {
-    // true - Show filters on tanks.
-    // true - показывать фильтры отображения танков.
-    "showFilters": true,
-    // true - Set the default focus to the filter text input
-    // true - Выбрать поле ввода фильтра по умолчанию
-    "filterFocused": true,
-    // true - Enable filter tanks in hangar by default.
-    // true - включить фильтр отображения танков в ангаре по умолчанию.
-    "inHangarFilterEnabled": false,
-    // true - Enable display of E column (values ​​may be incorrect due to the peculiarities of WG statistics servers).
-    // true - показывать колонку эффективности по танку (значения могут быть неверными из-за особенностей предоставления статистики серверами WG).
-    "showEColumn": false,
-    // number of column for sorting by default. Sort order: >0 - default, <0 - inverse
-    // номер колонки для сортировки по умолчанию. Порядок сортировки: >0 - по умолчанию, <0 - обратный
-    // 1 - Level       / Уровень
-    // 2 - Type        / Тип
-    // 3 - Nation      / Нация
-    // 4 - Name        / Название
-    // 5 - E           / E
-    // 6 - Fights      / Боев
-    // 7 - Wins        / Побед
-    // 8 - Class mark  / Знак классности
-    "sortColumn": 6
   }
 }

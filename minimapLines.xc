@@ -18,19 +18,19 @@
        // Дистанция из угла в угол на километровой карте получается немногим более 1400 метров.
        // В секциях располагается произвольное кол-во отрезков.
        // Для постановки точки попробуйте отрезок длиной в единицу и с большой толщиной.
-       // Для простоты можете оставить один длинный отрезок, не забыв убрать зяпятую. В конце секции запятая не ставится.
+       // Для простоты можете оставить один длинный отрезок, не забыв убрать запятую. В конце секции запятая не ставится.
        //---------------------------------------------------------------------------------------------------
        // Own vehicle direction.
        // Направление корпуса своей техники.
        "vehicle": [
-         { "enabled": true, "from": 20,  "to": 300, "inmeters": false, "thickness": 0.4, "alpha": 35, "color": "0xFFCC66"}
+         { "enabled": false, "from": 20,  "to": 300, "inmeters": false, "thickness": 0.4, "alpha": 35, "color": "0xFFCC66"}
        ],
        // Camera direction.
        // Направление камеры от своей техники.
        "camera": [
          { "enabled": false, "from": 50,  "to": 100, "inmeters": true, "thickness": 2,   "alpha": 60, "color": "0xEE0044"},
          { "enabled": false, "from": 200, "to": 300, "inmeters": true, "thickness": 1.5, "alpha": 45, "color": "0xEE0044"},
-         { "enabled": true, "from": 440, "to": 445, "inmeters": true, "thickness": 20,   "alpha": 30, "color": "0xFF0000"}
+         { "enabled": false, "from": 350, "to": 445, "inmeters": true, "thickness": 1,   "alpha": 30, "color": "0xEE0044"}
        ],
        // Gun traverse angles may differ depending on vehicle angle relative to ground. See pics at http://goo.gl/ZqlPa
        // Углы горизонтальной наводки могут меняться в зависимости от углов постановки машины на склонах местности. Подробнее по ссылке: http://goo.gl/ZqlPa
@@ -38,7 +38,7 @@
        // Horizontal gun traverse angle lines.
        // Углы горизонтальной наводки.
        "traverseAngle": [
-         { "enabled": true, "from": 20,  "to": 300, "inmeters": false, "thickness": 0.4, "alpha": 50, "color": "0xFFCC66"}
+         { "enabled": true, "from": 20,  "to": 300, "inmeters": false, "thickness": 0.4, "alpha": 35, "color": "0xFFCC66"}
        ]
     }
 }

@@ -18,7 +18,7 @@
     "highlightVehicleIcon": true,
     // Format of clock on the Debug Panel (near FPS).
     // Формат часов на экране панели отладки (возле FPS).
-    // http://php.net/date
+    //
     "clockFormat": "H:N", // TODO: "H:i"
     // true - use standard client vehicle markers.
     // true - использовать стандартные маркеры клиента.
@@ -34,7 +34,7 @@
   // Панель счёта в бою.
   "fragCorrelation": {
     // true - hide textfields "Allies | Enemies".
-    // true - cпрятать два текстовых поля "Союзники | Противники".
+    // true - спрятать два текстовых поля "Союзники | Противники".
     "hideTeamTextFields": true
   },
   // Ingame crits panel by "expert" skill.
