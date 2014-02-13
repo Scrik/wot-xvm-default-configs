@@ -9,7 +9,7 @@
     "skipIntro": true,
     // Auto enter to the game
     // Автоматический вход в игру
-    "autologin": true,
+    "autologin": false,
     // Auto confirm old replays playing
     // Автоматически подтверждать проигрывание старых реплеев
     "confirmOldReplays": false,
