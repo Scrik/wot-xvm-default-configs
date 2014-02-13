@@ -1,5 +1,7 @@
 ﻿坦克世界 XVM模組 預設使用者設定 測試
 要使用自訂設定 要將 \res_mods\xvm\底下的xvm.xc.sample 改成 xvm.xc
+上午 05:39 2014/2/14 5.1.0
+上午 09:27 2013/12/25 XVM 5.0.2-test1 (WoT client 0.8.10) 沒重大改變 基本上直接套用沒問題
 上午 05:15 2013/11/2 5.0.1t1 for 8.9
 下午 08:48 2013/10/16 5.0.0test5 hangar.xc 部份內容移到新增檔案userInfo.xc
 上午 03:20 2013/10/10 5.0.0test4
@@ -78,6 +80,11 @@ squad.xc //組隊??
 captureBar.xc//佔領時的進度條
 
 statisticForm.xc//tab面板
+
+login.xc //登入設定
+　skipIntro //跳過啟動動畫
+　autologin //自動登入 
+
 //
 @xvm.xc
 alpha.xc
@@ -86,7 +93,7 @@ colors.xc
 elements.xc
 
 iconset.xc
-login.xc
+
 markers.xc
 markersAliveExtended.xc
 markersAliveNormal.xc

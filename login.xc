@@ -9,13 +9,10 @@
     "skipIntro": true,
     // Auto enter to the game
     // Автоматический вход в игру
-    "autologin": false,
-<<<<<<< HEAD
-=======
+    "autologin": true,
     // Auto confirm old replays playing
     // Автоматически подтверждать проигрывание старых реплеев
     "confirmOldReplays": false,
->>>>>>> 8.11 - 140214
     // Ping servers
     // Пинг серверов
     "pingServers": {
