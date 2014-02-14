@@ -17,7 +17,8 @@
             { "enabled": true,  "distance": 400, "thickness": 0.75, "alpha": 80, "color": "0xFFCC66" },
             { "enabled": true,  "distance": 445, "thickness": 0.75, "alpha": 80, "color": "0xFFCC66" },
             { "enabled": true,  "distance": 800, "thickness": 0.75, "alpha": 80, "color": "0xFFCC66" },
-            { "enabled": true,  "distance": 50,  "thickness": 1,    "alpha": 99, "color": "0xFFFFFF" }        ],
+            { "enabled": true,  "distance": 50,  "thickness": 1,    "alpha": 99, "color": "0xFFFFFF" }
+        ],
         // Special circles dependent on vehicle type.
         // Many configuration lines for the same vehicle make many circles.
         // Only artillery top gun range by default.
